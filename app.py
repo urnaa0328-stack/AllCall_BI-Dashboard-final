@@ -4,10 +4,10 @@ import altair as alt
 from pathlib import Path
 from datetime import date, timedelta, datetime
 
-from modules.ticket_dashboard import render_ticket_dashboard
-from modules.sales_dashboard import render_sales_dashboard
-from modules.social_dashboard import render_social_dashboard
-from modules.operation_dashboard import render_operation_dashboard
+from ticket_dashboard import render_ticket_dashboard
+from sales_dashboard import render_sales_dashboard
+from social_dashboard import render_social_dashboard
+from operation_dashboard import render_operation_dashboard
 
 st.set_page_config(page_title="AllCall BI Dashboard", page_icon="📊", layout="wide")
 
